@@ -1,0 +1,32 @@
+/* Add this CSS in a separate stylesheet or within a <style> tag in your HTML file */
+header {
+    display: flex;
+    flex-direction: column; /* Stack the logo on top of the nav buttons */
+    align-items: center; /* Horizontally center items in the header */
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.logo {
+    margin-left: 10px; /* Adjust the top margin of the logo as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    transition: all 0.3s ease 0.2s;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid #000000; /* Add a border */
+    border-radius: 30px; /* Add a border radius */
+}
